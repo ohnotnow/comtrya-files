@@ -1,34 +1,22 @@
 actions:
   - action: package.install
-    name: git
-  - action: package.install
-    name: bash
-  - action: package.install
-    name: php
+    list:
+      - bash
+      - bat
+      - curl
+      - dive
+      - ffmpeg
+      - git
+      - imagemagick
+      - jq
+      - keepassxc
+      - mailhog
+      - mysql
+      - php
+      - redis
+      - wget
   - action: command.run
     name: curl -o composer-installer https://getcomposer.org/installer && chmod 700 composer-installer && bash composer-installer --install-dir=/usr/local/bin --filename=composer
-  - action: package.install
-    name: keepassxc
-  - action: package.install
-    name: mailhog
-  - action: package.install
-    name: ffmpeg
-  - action: package.install
-    name: mysql
-  - action: package.install
-    name: wget
-  - action: package.install
-    name: imagemagick
-  - action: package.install
-    name: bat
-  - action: package.install
-    name: redis
-  - action: package.install
-    name: jq
-  - action: package.install
-    name: curl
-  - action: package.install
-    name: dive
   - action: file.copy
     from: .bashrc
     to: ~/.bashrc
