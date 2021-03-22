@@ -1,7 +1,7 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1 # macos catalina zsh nonsense
 export DOCKER_ORG=ohffs
 export DOCKER_BUILDKIT=1
-export PATH="./vendor/bin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/billy/.composer/vendor/bin:/usr/local/go/bin"
+export PATH="./vendor/bin:~/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:~/.composer/vendor/bin:/usr/local/go/bin"
 export LS_OPTS="--color=auto"
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
