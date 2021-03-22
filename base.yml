@@ -3,6 +3,7 @@ actions:
     list:
       - bash
       - bat
+      - broot
       - curl
       - dive
       - ffmpeg
